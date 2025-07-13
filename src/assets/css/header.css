@@ -1,0 +1,42 @@
+#butn{
+    
+    float: right;
+   background-color: black;
+   display:flex;
+    justify-content: center;
+    height: 50px;
+    width: 55%;
+
+}
+#company-name{
+    float:left;
+    display:flex;
+    justify-content: center;
+    background-color: black;
+    height: 50px;
+    width: 45%;
+}
+#company-name span{
+    background-color: aquamarine;
+    text-align: center;
+    padding: 5px;
+}
+
+#header{
+    text-align: center;
+    display: block;
+
+}
+.btn{
+    color: rgb(249, 216, 4);
+    border-color: rgb(83, 174, 81);
+    background-color: darkolivegreen;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 3px;
+}
+.btn:hover{
+    color:rgb(46, 27, 3);
+    border-color: chartreuse;
+    size: 10px;
+}

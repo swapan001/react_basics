@@ -1,17 +1,19 @@
 import { useState } from 'react'
+import HelloWorld from './assets/HelloWorld'
+import Header from './assets/Header'
+import Footer from './assets/Footer'
 
-import './App.css'
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-       
-      
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+      <Header/>
+      <HelloWorld/>
+      <Footer/>
+
         
     </>
   )
